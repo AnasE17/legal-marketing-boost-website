@@ -11,10 +11,10 @@ const Footer: React.FC = () => {
           {/* Company Info */}
           <div className="col-span-1 md:col-span-2">
             <div className="text-2xl font-bold mb-4">
-              Reda<span className="text-red-500">Marketing</span>
+              Legal Marketing<span className="text-blue-500">Boost</span>
             </div>
             <p className="text-gray-300 mb-6 max-w-md">
-              Specialized marketing solutions for attorneys and law firms. We help you grow your practice with proven digital marketing strategies.
+              We help top law firms scale with exclusive, AI-driven paid ads—no more junk leads, no more wasted budget. Just real cases from real injury victims, ready to sign.
             </p>
             <div className="flex space-x-4">
               <a href="#" className="text-gray-400 hover:text-white transition-colors">
@@ -32,15 +32,15 @@ const Footer: React.FC = () => {
             </div>
           </div>
 
-          {/* Services */}
+          {/* Areas Of Expertise */}
           <div>
-            <h3 className="text-lg font-semibold mb-4">Services</h3>
+            <h3 className="text-lg font-semibold mb-4">Areas Of Expertise</h3>
             <ul className="space-y-2">
-              <li><Link href="#services" className="text-gray-300 hover:text-white transition-colors">SEO</Link></li>
-              <li><Link href="#services" className="text-gray-300 hover:text-white transition-colors">PPC Advertising</Link></li>
-              <li><Link href="#services" className="text-gray-300 hover:text-white transition-colors">Content Marketing</Link></li>
-              <li><Link href="#services" className="text-gray-300 hover:text-white transition-colors">Website Design</Link></li>
-              <li><Link href="#services" className="text-gray-300 hover:text-white transition-colors">Lead Generation</Link></li>
+              <li><Link href="#personal-injury" className="text-gray-300 hover:text-white transition-colors">Personal Injury Marketing</Link></li>
+              <li><Link href="#estate-planning" className="text-gray-300 hover:text-white transition-colors">Estate Planning Marketing</Link></li>
+              <li><Link href="#consumer-protection" className="text-gray-300 hover:text-white transition-colors">Consumer Protection Marketing</Link></li>
+              <li><Link href="#ai-driven" className="text-gray-300 hover:text-white transition-colors">AI-Driven Paid Ads</Link></li>
+              <li><Link href="#exclusive-leads" className="text-gray-300 hover:text-white transition-colors">Exclusive Lead Generation</Link></li>
             </ul>
           </div>
 
@@ -49,10 +49,10 @@ const Footer: React.FC = () => {
             <h3 className="text-lg font-semibold mb-4">Company</h3>
             <ul className="space-y-2">
               <li><Link href="#about" className="text-gray-300 hover:text-white transition-colors">About Us</Link></li>
-              <li><Link href="#results" className="text-gray-300 hover:text-white transition-colors">Case Studies</Link></li>
-              <li><Link href="#contact" className="text-gray-300 hover:text-white transition-colors">Contact</Link></li>
-              <li><Link href="#" className="text-gray-300 hover:text-white transition-colors">Privacy Policy</Link></li>
-              <li><Link href="#" className="text-gray-300 hover:text-white transition-colors">Terms of Service</Link></li>
+              <li><Link href="#clients" className="text-gray-300 hover:text-white transition-colors">Our Clients</Link></li>
+              <li><Link href="#pricing" className="text-gray-300 hover:text-white transition-colors">Pricing</Link></li>
+              <li><Link href="#blogs" className="text-gray-300 hover:text-white transition-colors">Blogs</Link></li>
+              <li><Link href="#contact" className="text-gray-300 hover:text-white transition-colors">Contact Us</Link></li>
             </ul>
           </div>
         </div>
@@ -60,10 +60,10 @@ const Footer: React.FC = () => {
         <div className="border-t border-gray-800 mt-12 pt-8">
           <div className="flex flex-col md:flex-row justify-between items-center">
             <p className="text-gray-400 text-sm">
-              © {currentYear} Reda Marketing. All rights reserved.
+              © {currentYear} Legal Marketing Boost. All rights reserved.
             </p>
             <p className="text-gray-400 text-sm mt-4 md:mt-0">
-              Specialized in Attorney Marketing
+              Legal Marketing Boost is a brand name of the company Digital Capital Ventures LLC
             </p>
           </div>
         </div>

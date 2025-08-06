@@ -10,37 +10,40 @@ const Header: React.FC = () => {
         <div className="flex justify-between items-center h-16">
           <Link href="/" className="flex items-center space-x-2">
             <div className="text-2xl font-bold text-gray-900">
-              Reda<span className="text-red-500">Marketing</span>
+              Legal Marketing<span className="text-blue-500">Boost</span>
             </div>
           </Link>
           
           <div className="hidden md:flex items-center space-x-8">
-            <Link href="#home" className="text-gray-700 hover:text-red-500 transition-colors duration-200 font-medium">
-              Home
+            <Link href="#about" className="text-gray-700 hover:text-blue-500 transition-colors duration-200 font-medium">
+              About Us
             </Link>
-            <Link href="#services" className="text-gray-700 hover:text-red-500 transition-colors duration-200 font-medium">
-              Services
+            <Link href="#expertise" className="text-gray-700 hover:text-blue-500 transition-colors duration-200 font-medium">
+              Areas Of Expertise
             </Link>
-            <Link href="#results" className="text-gray-700 hover:text-red-500 transition-colors duration-200 font-medium">
-              Results
+            <Link href="#pricing" className="text-gray-700 hover:text-blue-500 transition-colors duration-200 font-medium">
+              Pricing
             </Link>
-            <Link href="#about" className="text-gray-700 hover:text-red-500 transition-colors duration-200 font-medium">
-              About
+            <Link href="#clients" className="text-gray-700 hover:text-blue-500 transition-colors duration-200 font-medium">
+              Our Clients
             </Link>
-            <Link href="#contact" className="text-gray-700 hover:text-red-500 transition-colors duration-200 font-medium">
-              Contact
+            <Link href="#blogs" className="text-gray-700 hover:text-blue-500 transition-colors duration-200 font-medium">
+              Blogs
+            </Link>
+            <Link href="#contact" className="text-gray-700 hover:text-blue-500 transition-colors duration-200 font-medium">
+              Contact Us
             </Link>
             <Link 
-              href="#contact" 
-              className="bg-gradient-to-r from-red-500 to-red-600 text-white px-6 py-2 rounded-full font-semibold hover:from-red-600 hover:to-red-700 transition-all duration-200 shadow-lg hover:shadow-xl transform hover:-translate-y-0.5"
+              href="#strategy-call" 
+              className="bg-gradient-to-r from-blue-500 to-blue-600 text-white px-6 py-2 rounded-full font-semibold hover:from-blue-600 hover:to-blue-700 transition-all duration-200 shadow-lg hover:shadow-xl transform hover:-translate-y-0.5"
             >
-              Get Started
+              Book Your Free Strategy Call
             </Link>
           </div>
           
           <button
             onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
-            className="md:hidden text-gray-700 hover:text-red-500 transition-colors duration-200"
+            className="md:hidden text-gray-700 hover:text-blue-500 transition-colors duration-200"
           >
             {isMobileMenuOpen ? (
               <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -57,26 +60,29 @@ const Header: React.FC = () => {
         {isMobileMenuOpen && (
           <div className="md:hidden bg-white border-t border-gray-200 py-4">
             <div className="flex flex-col space-y-4 px-4">
-              <Link href="#home" className="text-gray-700 hover:text-red-500 transition-colors duration-200 font-medium">
-                Home
+              <Link href="#about" className="text-gray-700 hover:text-blue-500 transition-colors duration-200 font-medium">
+                About Us
               </Link>
-              <Link href="#services" className="text-gray-700 hover:text-red-500 transition-colors duration-200 font-medium">
-                Services
+              <Link href="#expertise" className="text-gray-700 hover:text-blue-500 transition-colors duration-200 font-medium">
+                Areas Of Expertise
               </Link>
-              <Link href="#results" className="text-gray-700 hover:text-red-500 transition-colors duration-200 font-medium">
-                Results
+              <Link href="#pricing" className="text-gray-700 hover:text-blue-500 transition-colors duration-200 font-medium">
+                Pricing
               </Link>
-              <Link href="#about" className="text-gray-700 hover:text-red-500 transition-colors duration-200 font-medium">
-                About
+              <Link href="#clients" className="text-gray-700 hover:text-blue-500 transition-colors duration-200 font-medium">
+                Our Clients
               </Link>
-              <Link href="#contact" className="text-gray-700 hover:text-red-500 transition-colors duration-200 font-medium">
-                Contact
+              <Link href="#blogs" className="text-gray-700 hover:text-blue-500 transition-colors duration-200 font-medium">
+                Blogs
+              </Link>
+              <Link href="#contact" className="text-gray-700 hover:text-blue-500 transition-colors duration-200 font-medium">
+                Contact Us
               </Link>
               <Link 
-                href="#contact" 
-                className="bg-gradient-to-r from-red-500 to-red-600 text-white px-6 py-2 rounded-full font-semibold hover:from-red-600 hover:to-red-700 transition-all duration-200 shadow-lg hover:shadow-xl transform hover:-translate-y-0.5 text-center"
+                href="#strategy-call" 
+                className="bg-gradient-to-r from-blue-500 to-blue-600 text-white px-6 py-2 rounded-full font-semibold hover:from-blue-600 hover:to-blue-700 transition-all duration-200 shadow-lg hover:shadow-xl transform hover:-translate-y-0.5 text-center"
               >
-                Get Started
+                Book Your Free Strategy Call
               </Link>
             </div>
           </div>

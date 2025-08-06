@@ -1,64 +1,56 @@
 import React from 'react';
 
 const TrustBadges: React.FC = () => {
-  const badges = [
-    {
-      name: "Forbes",
-      logo: "https://via.placeholder.com/120x40/ffffff20/ffffff?text=Forbes",
-      alt: "Forbes"
-    },
-    {
-      name: "Inc5000",
-      logo: "https://via.placeholder.com/120x40/ffffff20/ffffff?text=Inc5000",
-      alt: "Inc5000"
-    },
-    {
-      name: "BBB",
-      logo: "https://via.placeholder.com/120x40/ffffff20/ffffff?text=BBB",
-      alt: "BBB"
-    },
-    {
-      name: "Google",
-      logo: "https://via.placeholder.com/120x40/ffffff20/ffffff?text=Google",
-      alt: "Google Partner"
-    },
-    {
-      name: "Facebook",
-      logo: "https://via.placeholder.com/120x40/ffffff20/ffffff?text=Facebook",
-      alt: "Facebook Partner"
-    }
-  ];
-
   return (
-    <section className="py-16 bg-white">
+    <section className="py-24 bg-gradient-to-r from-slate-100 to-slate-200">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-12">
-          <h3 className="text-2xl font-bold text-gray-900 mb-4">
+          <h3 className="text-3xl md:text-4xl font-bold text-slate-900 mb-4">
             Trusted by Leading Platforms
           </h3>
-          <p className="text-gray-600">
-            Reda Marketing is certified and recognized by the industry's most trusted platforms
+          <p className="text-xl text-slate-600 max-w-3xl mx-auto">
+            Official partner and certified expert across leading digital advertising platforms
           </p>
         </div>
         
-        <div className="flex justify-center items-center flex-wrap gap-8 md:gap-12">
-          {badges.map((badge, index) => (
-            <div 
-              key={index}
-              className="flex items-center justify-center opacity-70 hover:opacity-100 transition-opacity duration-300"
-            >
+        <div className="flex flex-wrap justify-center items-center gap-12 md:gap-16">
+          <div className="flex flex-col items-center group">
+            <div className="bg-white/80 backdrop-blur-sm rounded-xl p-6 mb-4 group-hover:bg-white shadow-lg group-hover:shadow-xl transition-all duration-300">
               <img 
-                src={badge.logo} 
-                alt={badge.alt}
-                className="h-12 md:h-16 object-contain"
+                src="https://www.pngmart.com/files/23/Google-Ads-Logo-PNG-HD.png" 
+                alt="Google Ads Partner" 
+                className="h-16 md:h-20 object-contain"
               />
             </div>
-          ))}
+            <span className="text-sm text-slate-700 font-medium">Google Ads Partner</span>
+          </div>
+          
+          <div className="flex flex-col items-center group">
+            <div className="bg-white/80 backdrop-blur-sm rounded-xl p-6 mb-4 group-hover:bg-white shadow-lg group-hover:shadow-xl transition-all duration-300">
+              <img 
+                src="https://seeklogo.com/images/M/meta-business-partner-logo-8CED76C499-seeklogo.com.png" 
+                alt="Meta Business Partner" 
+                className="h-16 md:h-20 object-contain"
+              />
+            </div>
+            <span className="text-sm text-slate-700 font-medium">Meta Business Partner</span>
+          </div>
+          
+          <div className="flex flex-col items-center group">
+            <div className="bg-white/80 backdrop-blur-sm rounded-xl p-6 mb-4 group-hover:bg-white shadow-lg group-hover:shadow-xl transition-all duration-300">
+              <img 
+                src="https://netzoll.com/wp-content/uploads/2024/05/microsoft_advertising_partner_logo_black_v2.png" 
+                alt="Microsoft Ads Partner" 
+                className="h-16 md:h-20 object-contain"
+              />
+            </div>
+            <span className="text-sm text-slate-700 font-medium">Microsoft Ads Partner</span>
+          </div>
         </div>
         
-        <div className="text-center mt-8">
-          <p className="text-sm text-gray-500">
-            Certified partners and industry recognition
+        <div className="text-center mt-12">
+          <p className="text-slate-500 text-sm">
+            Official platform partnerships and certifications
           </p>
         </div>
       </div>

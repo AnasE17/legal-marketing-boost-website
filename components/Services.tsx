@@ -4,84 +4,84 @@ const Services: React.FC = () => {
   const services = [
     {
       icon: "🎯",
-      title: "Search Engine Optimization (SEO)",
-      description: "Dominate local search results with our proven SEO strategies that target high-value attorney keywords and drive qualified leads to your practice.",
+      title: "Manage Your Advertising Spend",
+      description: "We monitor and optimize your spending to ensure you are getting the best return on your investment.",
       features: [
-        "Local SEO optimization",
-        "Keyword research & targeting", 
-        "Content strategy & creation",
-        "Technical SEO audits"
+        "Performance-based pricing",
+        "Real-time budget optimization",
+        "ROI tracking & reporting",
+        "Cost-per-lead optimization"
+      ]
+    },
+    {
+      icon: "🎯",
+      title: "Audience Targeting",
+      description: "We can target by groups, interests, gender, job roles, buying behavior, household income. We can also upload your mailing lists so they can be targeted or excluded from campaigns.",
+      features: [
+        "Demographic targeting",
+        "Behavioral targeting",
+        "Custom audience creation",
+        "Lookalike audience expansion"
       ]
     },
     {
       icon: "📱",
-      title: "Pay-Per-Click Advertising (PPC)",
-      description: "Generate immediate leads with targeted PPC campaigns that reach potential clients at the exact moment they're searching for legal help.",
+      title: "Ad Creation",
+      description: "We will build highly engaging ads that speak to your target audience from drafting the copy to designing an eye catching creative.",
       features: [
-        "Google Ads management",
-        "Facebook & Instagram ads",
-        "Remarketing campaigns", 
-        "Conversion optimization"
+        "Compelling ad copy",
+        "Eye-catching visuals",
+        "A/B testing",
+        "Performance optimization"
       ]
     },
     {
       icon: "📊",
-      title: "Content Marketing",
-      description: "Build authority and trust with compelling content that educates potential clients and positions you as the leading expert in your area.",
+      title: "Tracking",
+      description: "We will install the Facebook Pixel and Google Tags on all of your custom landing pages and help integrate it on your own website to be able to track every action taken by your audience.",
       features: [
-        "Blog content creation",
-        "Video marketing",
-        "Social media content",
-        "Email marketing campaigns"
+        "Conversion tracking",
+        "Lead attribution",
+        "ROI measurement",
+        "Real-time analytics"
       ]
     },
     {
       icon: "📈",
-      title: "Website Design & Development",
-      description: "Convert visitors into clients with high-converting websites designed specifically for law firms.",
+      title: "Landing Page",
+      description: "We will create stunning landing pages to help you qualify potential customers and convert.",
       features: [
-        "Mobile-responsive design",
-        "Lead capture optimization",
-        "Fast loading speeds",
-        "Conversion tracking"
+        "High-converting design",
+        "Mobile optimization",
+        "Lead capture forms",
+        "A/B testing"
       ]
     },
     {
       icon: "📞",
-      title: "Lead Generation & Nurturing",
-      description: "Turn website visitors into paying clients with our proven lead generation and nurturing systems.",
+      title: "Campaign Optimization",
+      description: "We maximize campaign returns with precise tracking and strategic optimization using the best technology and data algorithms.",
       features: [
-        "Lead capture forms",
-        "Email automation",
-        "Follow-up sequences",
-        "CRM integration"
-      ]
-    },
-    {
-      icon: "📱",
-      title: "Social Media Marketing",
-      description: "Build relationships and trust with potential clients through strategic social media marketing campaigns.",
-      features: [
-        "Platform-specific strategies",
-        "Community engagement",
-        "Paid social advertising",
-        "Reputation management"
+        "AI-driven optimization",
+        "Performance monitoring",
+        "Continuous improvement",
+        "Data-driven decisions"
       ]
     }
   ];
 
   return (
-    <section id="services" className="py-24 bg-gray-50">
+    <section id="what-we-do" className="py-24 bg-gray-50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
-          <div className="inline-flex items-center bg-gradient-to-r from-red-500 to-red-600 text-white px-4 py-2 rounded-full text-sm font-semibold mb-4">
-            Our Services
+          <div className="inline-flex items-center bg-gradient-to-r from-blue-500 to-blue-600 text-white px-4 py-2 rounded-full text-sm font-semibold mb-4">
+            What We Do?
           </div>
           <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
-            Comprehensive Attorney Marketing Solutions
+            We bring all the things you need to solve your case acquisition problems in one place.
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            We provide end-to-end digital marketing services designed specifically for attorneys to grow their practice and dominate their local market.
+            We develop a fully automated case acquisition system that is customized to your firm.
           </p>
         </div>
         
@@ -91,7 +91,7 @@ const Services: React.FC = () => {
               key={index}
               className="bg-white rounded-2xl p-8 shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-2 border border-gray-100"
             >
-              <div className="w-16 h-16 bg-gradient-to-r from-red-500 to-red-600 rounded-2xl flex items-center justify-center text-2xl text-white mb-6">
+              <div className="w-16 h-16 bg-gradient-to-r from-blue-500 to-blue-600 rounded-2xl flex items-center justify-center text-2xl text-white mb-6">
                 {service.icon}
               </div>
               <h3 className="text-xl font-bold text-gray-900 mb-4">
@@ -115,9 +115,9 @@ const Services: React.FC = () => {
         <div className="text-center mt-12">
           <a 
             href="#contact"
-            className="inline-flex items-center bg-gradient-to-r from-red-500 to-red-600 text-white px-8 py-4 rounded-full font-semibold text-lg hover:from-red-600 hover:to-red-700 transition-all duration-200 shadow-lg hover:shadow-xl transform hover:-translate-y-1"
+            className="inline-flex items-center bg-gradient-to-r from-blue-500 to-blue-600 text-white px-8 py-4 rounded-full font-semibold text-lg hover:from-blue-600 hover:to-blue-700 transition-all duration-200 shadow-lg hover:shadow-xl transform hover:-translate-y-1"
           >
-            Get Your Free Marketing Audit
+            Book Your Free Demo
           </a>
         </div>
       </div>

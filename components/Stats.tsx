@@ -3,24 +3,24 @@ import React from 'react';
 const Stats: React.FC = () => {
   const stats = [
     {
-      number: "20+",
-      label: "Years of Experience",
-      description: "Decades of marketing expertise"
+      number: "100+",
+      label: "Clients Helped",
+      description: "Reputable law firms served"
     },
     {
-      number: "1,000+",
-      label: "Law Firms Served",
-      description: "Trusted by attorneys nationwide"
+      number: "4X",
+      label: "Increase in leads generated",
+      description: "Average improvement"
     },
     {
-      number: "$500M+",
-      label: "Revenue Generated",
-      description: "For our attorney clients"
+      number: "4.9/5",
+      label: "Customer satisfaction",
+      description: "Client satisfaction rating"
     },
     {
-      number: "95%",
-      label: "Client Retention",
-      description: "Long-term partnerships"
+      number: "98%",
+      label: "Success Rate",
+      description: "Proven track record"
     }
   ];
 
@@ -29,10 +29,10 @@ const Stats: React.FC = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold text-white mb-6">
-            Proven Results for Attorneys
+            We have worked with hundreds of Reputable Law Firms
           </h2>
           <p className="text-xl text-gray-300 max-w-3xl mx-auto">
-            Reda Marketing has helped hundreds of law firms achieve remarkable growth through our specialized attorney marketing strategies.
+            Legal Marketing Boost has helped top law firms scale with exclusive, AI-driven paid ads—no more junk leads, no more wasted budget.
           </p>
         </div>
         
@@ -42,7 +42,7 @@ const Stats: React.FC = () => {
               key={index}
               className="text-center bg-white/10 backdrop-blur-lg rounded-2xl p-8 border border-white/20 hover:bg-white/20 transition-all duration-300"
             >
-              <div className="text-4xl md:text-5xl font-bold text-red-400 mb-2">
+              <div className="text-4xl md:text-5xl font-bold text-blue-400 mb-2">
                 {stat.number}
               </div>
               <div className="text-xl font-semibold text-white mb-2">
@@ -57,7 +57,7 @@ const Stats: React.FC = () => {
         
         <div className="text-center mt-12">
           <p className="text-gray-300 text-lg">
-            Join the hundreds of law firms that trust Reda Marketing to grow their practice
+            Join the hundreds of law firms that trust Legal Marketing Boost to scale their practice
           </p>
         </div>
       </div>

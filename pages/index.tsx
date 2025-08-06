@@ -13,8 +13,8 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Attorney Marketing | Reda Marketing</title>
-        <meta name="description" content="Transform your law practice with Reda Marketing's specialized attorney marketing services. Get more cases, higher case values, and dominate your local market." />
+        <title>Legal Marketing Boost | AI-Driven Personal Injury Marketing</title>
+        <meta name="description" content="Get exclusive, high-intent personal injury leads through AI-driven paid ads. We help law firms scale with exclusive leads that turn into signed cases." />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
       </Head>
       <Header />
